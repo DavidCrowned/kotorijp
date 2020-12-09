@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Kotori</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/kotoriicon.png">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+	<script>
+	      function initMap() {
+	        const kot = { lat: 32.65734498375138, lng: -115.44658483203185 };
+	        const map = new google.maps.Map(document.getElementById("map"), {
+	          zoom: 15,
+	          center: kot,
+	        });
+	        const marker = new google.maps.Marker({
+	          position: kot,
+	          map: map,
+	        });
+	      }
+	    </script>
+</head>
+<body>
+
+
+<section class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+
+			<a class="navbar-brand" href="index.html">
+			<img class="for_transparent" src="img/kotoripp.png" height="170%" style="margin:-3px 0px">
+		</a>
+
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home" class="smoothScroll">Inicio</a></li>
+				<li><a href="menu.html" class="smoothScroll">Menu</a></li>
+				<li><a href="order.html" class="smoothScroll">Ubicación</a></li>
+				<li><a href="#contact" class="smoothScroll">Contacto</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+
+<!-- home section -->
+<section id="home" class="parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h1>Una auténtica experiencia gastronómica japonesa</h1>
+				<h2>RESTAURANTE KOTORI</h2>
+				<a href="#gallery" class="smoothScroll btn btn-default">Ver Menú</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- gallery section -->
+<section id="gallery" class="parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
+				<h1 class="heading">Galería</h1>
+				<hr>
+			</div>
+			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+				<a href="img/kot3.jpg" data-lightbox-gallery="zenda-gallery"><img src="img/kot3.jpg" alt="gallery img"></a>
+				<div>
+					<h3>Brawley Roll</h3>
+				</div>
+				<a href="img/kot5.jpg" data-lightbox-gallery="zenda-gallery"><img src="img/kot5.jpg" alt="gallery img"></a>
+				<div>
+					<h3>Cordon Blue</h3>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+				<a href="img/kot4.jpg" data-lightbox-gallery="zenda-gallery"><img src="img/kot4.jpg" alt="gallery img"></a>
+				<div>
+					<h3>Salmón Tropical Roll</h3>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
+				<a href="img/kot2.jpg" data-lightbox-gallery="zenda-gallery"><img src="img/kot2.jpg" alt="gallery img"></a>
+				<div>
+					<h3>Caldo Pho</h3>
+				</div>
+				<a href="img/kot1.jpg" data-lightbox-gallery="zenda-gallery"><img src="img/kot1.jpg" alt="gallery img"></a>
+				<div>
+					<h3>San Luis Roll</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+			<div class="col-md-2 col-sm-1"></div>
+		</div>
+	</div>
+</section>
+
+
+<!-- footer section -->
+<footer id="contact" class="parallax-section">
+	<div class="container">
+		<div class="row" id="square">
+			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+				<h2 class="heading">Información</h2>
+				<div class="ph">
+					<p><i class="fa fa-phone"></i> Tel.</p>
+					<h4>686-555-6262</h4>
+				</div>
+				<div class="address">
+					<p><i class="fa fa-map-marker"></i> Ubicación</p>
+					<h4>Calzada Aviación #354, Mexicali, BC, Mexico<h4>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+				<h2 class="heading">Horario</h2>
+					<p>Lun-Sab <span>11:00 AM - 9:00 PM</span></p>
+					<p>Domingo <span>CERRADO</span></p>
+			</div>
+			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+				<h2 class="heading">Contacto</h2>
+				<ul class="social-icon">
+					<li><a href="https://www.facebook.com/kotoriwok" class="fa fa-facebook wow bounceIn" data-wow-delay="0.3s"></a></li>
+					<li><a href="mailto:contacto@kotoriwok.com" class="fa fa-envelope wow bounceIn" data-wow-delay="0.3s"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4PPSb8wITAVpqT-0urNOo-KKTpX8urzk&callback=initMap&libraries=&v=weekly"defer></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
